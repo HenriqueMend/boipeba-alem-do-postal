@@ -47,15 +47,15 @@ window.EQUIPE = [
   },
   {
     nome: "Pedro Moura",
-    papel: "Curador",
+    papel: "Pesquisa",
     cor: "verde",
     selo: "coqueiro",
-    foto: "",
+    foto: "img/equipe/pedro.jpg",
     quemSou:
-      "Texto provisório. Aqui o Pedro conta quem ele é: de onde vem, o que estuda, o que gosta de criar e o que move o jeito dele de fazer design.",
+      "Nascido em São Paulo, mas de família baiana, carrego a honra de ter o sangue da Ilha de Boipeba. Sinto-me bem na praia e amo viajar. Tenho o sonho de conhecer o mundo e diferentes lugares e culturas.",
     porque:
-      "Texto provisório. Aqui entra o motivo pessoal: o que levou o Pedro a querer contar as histórias de Boipeba — uma lembrança, uma viagem, uma vontade de olhar para além do cartão-postal.",
+      "Minha família, por parte paterna, é nativa da ilha de gerações atrás. Tive o privilégio de conhecer as histórias e a cultura nativa por meio dos meus parentes e gostaria de compartilhar esse conhecimento com meus amigos e conhecidos.",
     contatos: { instagram: "_.pedromouraa", email: "pmoura1312@gmail.com", linkedin: "", portfolio: "" },
-    provisorio: true
+    provisorio: false
   }
 ];
