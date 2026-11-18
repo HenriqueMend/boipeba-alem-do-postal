@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOIPEBA: Além do Postal</title>
+  <meta name="description" content="Histórias da Ilha de Boipeba que vão além das paisagens. Cada cartão-postal leva a uma história.">
+  <meta name="theme-color" content="#1c3480">
+  <link rel="preload" href="fonts/boipeba.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/typewriter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="par-avion" aria-hidden="true"></div>
+
+  <header class="topo">
+    <a class="marca" href="#" data-home>
+      <span class="marca__nome">Boipeba</span>
+      <span class="marca__sub">além do postal</span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#album">Histórias</a>
+      <a href="#projeto">O projeto</a>
+      <a href="#sobre">Sobre nós</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="rodape">
+    <div class="par-avion" aria-hidden="true"></div>
+    <div class="rodape__grid">
+      <div>
+        <p class="rodape__titulo">Além<br>do postal</p>
+        <p class="rodape__frase">Um projeto que transforma cartões-postais em histórias de um povo.</p>
+      </div>
+      <div class="rodape__creditos">
+        <p class="rotulo">Quem faz · <a href="#sobre">conheça</a></p>
+        <p>Aline Pinheiro<br>Henrique Mendelini<br>Pedro Moura</p>
+        <p class="rotulo">Onde nasceu</p>
+        <p>Design Disruptivo — Prof. Tabatha<br>Senac · 2026</p>
+      </div>
+    </div>
+    <div class="rodape__selos" id="rodape-selos" aria-hidden="true"></div>
+  </footer>
+
+  <div class="lupa" id="lupa" hidden>
+    <button class="lupa__fechar" type="button" aria-label="Fechar">×</button>
+    <figure class="lupa__fig">
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/historias.js"></script>
+  <script src="js/equipe.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
